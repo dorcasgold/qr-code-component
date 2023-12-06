@@ -1,0 +1,39 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+}
+
+section {
+  max-width: 300px;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5%;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  color: hsl(220, 15%, 55%);
+  font-family: Outfit;
+}
+
+.txt {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+img {
+  border-radius: 5%;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  section {
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    right: 4%;
+  }
+}
